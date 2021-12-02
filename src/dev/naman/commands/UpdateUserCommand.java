@@ -16,6 +16,6 @@ public class UpdateUserCommand implements ICommand {
 
     @Override
     public void execute(String command) {
-
+        System.out.println("In Update User Command");
     }
 }

@@ -1,8 +1,11 @@
 package dev.naman.commands;
 
+import dev.naman.controller.UserController;
+
 import java.util.List;
 
 public class RegisterUserCommand implements ICommand{
+    private UserController userController = new UserController();
 
     @Override
     public boolean canExecute(String command) {
@@ -16,6 +19,7 @@ public class RegisterUserCommand implements ICommand{
 
     @Override
     public void execute(String command) {
-
+        userController.registerUser(null, null);
+        System.out.println("In Register User Command");
     }
 }
