@@ -6,7 +6,7 @@ import dev.naman.commands.registry.CommandRegistry;
 import dev.naman.commands.registry.exceptions.InvalidCommandException;
 
 public class Main {
-
+    // private staticCommandRegistry commandRegistry1
     public static void main(String[] args) {
         CommandRegistry commandRegistry = new CommandRegistry();
         commandRegistry.registerCommand(new RegisterUserCommand());

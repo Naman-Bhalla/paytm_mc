@@ -2,7 +2,8 @@ package dev.naman.models;
 
 import java.util.Date;
 
-public abstract class BaseModel {
+// @Auditable
+public abstract class BaseModel { // Auditing Fields
     private long Id;
     private Date createdAt;
     private Date lastUpdatedAt;

@@ -1,5 +1,9 @@
 package dev.naman.models;
 
+// S of Design Principles. SOLID Design Principle
+// Single Responsibility Pronciple
+// Single Repsonsibility of the model classes should be to store the attributes of
+// the model.
 public class User extends BaseModel {
     private String name;
     private String phoneNo;
@@ -50,3 +54,9 @@ public class User extends BaseModel {
 }
 
 // Bcrypt
+
+// Restaurant
+// Client -> Waiter ->        Chef ->     Kitchen/ Refrigerator -> INgredients
+// Client.   Controller.      Services.   Database (Repository).   Models
+// package by feature
+// package by functionality

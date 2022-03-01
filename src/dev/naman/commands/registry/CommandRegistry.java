@@ -24,3 +24,9 @@ public class CommandRegistry {
         throw new InvalidCommandException();
     }
 }
+
+
+Command Registry: A class that stores all the commandClasses that I may have
+and allows he clients to execute a string.
+It searches in all the commands that were registered and if any of them matches the string
+it runs
